@@ -2,16 +2,16 @@ services:
 -   type: web
     name: hello-world-app
     runtime: docker
-    repo: https://github.com/alexwbi88/express-test-prpreview
+    # repo: https://github.com/alexwbi88/express-test-prpreview
     # scaling:
       # minInstances: 1
       # maxInstances: 3
       # targetMemoryPercent: 60 # optional if targetCPUPercent is set
       # targetCPUPercent: 60 # optional if targetMemory is set
-    # buildCommand: yarn
+    buildCommand: ./Dockerfile
     # startCommand: node app.js
     plan: free
-    autoDeploy: false # optional
+    # autoDeploy: false # optional
     pullRequestPreviewsEnabled: true # optional
 
 # databases:
