@@ -12,6 +12,8 @@ services:
     startCommand: node app.js
     plan: free
     autoDeploy: false # optional
+    pullRequestPreviewsEnabled: true # optional
+
 databases:
   - name: t4
     databaseName: mydb # optional (Render may add a suffix)
