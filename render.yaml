@@ -8,8 +8,8 @@ services:
       # maxInstances: 3
       # targetMemoryPercent: 60 # optional if targetCPUPercent is set
       # targetCPUPercent: 60 # optional if targetMemory is set
-    buildCommand: yarn
-    startCommand: node app.js
+    # buildCommand: yarn
+    # startCommand: node app.js
     plan: free
     autoDeploy: false # optional
     pullRequestPreviewsEnabled: true # optional
