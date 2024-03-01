@@ -1,7 +1,7 @@
 services:
 -   type: web
-    name: bp_test
-    runtime: node
+    name: hello-world-app
+    runtime: docker
     repo: https://github.com/alexwbi88/express-test-prpreview
     # scaling:
       # minInstances: 1
@@ -14,7 +14,7 @@ services:
     autoDeploy: false # optional
     pullRequestPreviewsEnabled: true # optional
 
-databases:
-  - name: t4
-    databaseName: mydb # optional (Render may add a suffix)
-    user: adrian # optional
+# databases:
+#   - name: t4
+#     databaseName: mydb # optional (Render may add a suffix)
+#     user: adrian # optional
