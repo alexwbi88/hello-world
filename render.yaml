@@ -12,7 +12,7 @@ services:
     # startCommand: node app.js
     plan: free
     # autoDeploy: false # optional
-    pullRequestPreviewsEnabled: true # optional
+    # pullRequestPreviewsEnabled: true # optional
 
 # databases:
 #   - name: t4
